@@ -52,5 +52,9 @@ class Banco extends Cliente{
             echo "Deletado com sucesso";
         }
     }
+
+    public function Update(){
+        //COMING SOON
+    }
 }
 
