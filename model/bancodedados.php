@@ -20,7 +20,7 @@ class Banco extends Cliente{
 
     public function Conecta(){
         try{
-            $this->setConexao(mysqli_connect("localhost", "adauto", "200101", "bd_crud"));
+            $this->setConexao(mysqli_connect("localhost", "USER AQUI", "SENHA AQUI", "bd_crud"));
         }catch(Exception $e){
             echo $e;
         }
